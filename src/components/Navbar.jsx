@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/lahoreclogo.jpg';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
                     {/* Logo / College name */}
                     <div className="flex-shrink-0 flex items-center">
                         <Link to="/" className="flex items-center">
-                            <i className="fas fa-university text-green-800 text-2xl mr-2"></i>
+                            <img src={logo} alt="Lahore College Logo" className="h-10 w-10 mr-2 object-contain" />
                             <span className="font-bold text-xl text-gray-900 tracking-tight">Lahore College</span>
                         </Link>
                     </div>

@@ -49,6 +49,22 @@ const Home = () => {
                             <div className="text-4xl font-black text-green-700 mb-2">9+</div>
                             <div className="text-gray-600 font-bold uppercase text-xs tracking-widest">Global Awards</div>
                         </div>
+                        <div className="text-center p-6 bg-white rounded-2xl shadow-sm border border-green-100">
+                            <div className="text-4xl font-black text-green-700 mb-2">3+</div>
+                            <div className="text-gray-600 font-bold uppercase text-xs tracking-widest">Vehicle Services for Students</div>
+                        </div>
+                        <div className="text-center p-6 bg-white rounded-2xl shadow-sm border border-green-100">
+                            <div className="text-4xl font-black text-green-700 mb-2">5+</div>
+                            <div className="text-gray-600 font-bold uppercase text-xs tracking-widest">Study Programs</div>
+                        </div>
+                        <div className="text-center p-6 bg-white rounded-2xl shadow-sm border border-green-100">
+                            <div className="text-4xl font-black text-green-700 mb-2">10+</div>
+                            <div className="text-gray-600 font-bold uppercase text-xs tracking-widest">Sports Activities</div>
+                        </div>
+                        <div className="text-center p-6 bg-white rounded-2xl shadow-sm border border-green-100">
+                            <div className="text-4xl font-black text-green-700 mb-2">10+</div>
+                            <div className="text-gray-600 font-bold uppercase text-xs tracking-widest">IT & Different Courses</div>
+                        </div>
                     </div>
                 </div>
             </div>

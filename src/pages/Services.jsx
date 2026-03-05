@@ -22,18 +22,25 @@ const Services = () => {
             subjects: ["Mathematics", "Physics", "Chemistry", "English", "Urdu", "Islamic Studies"]
         },
         {
-            title: "ICS (Computer Science)",
+            title: "ICS (Physics/Maths)",
             icon: "fa-laptop-code",
-            description: "The ideal launchpad for tech leaders. Focuses on programming and computing concepts.",
+            description: "The ideal launchpad for tech leaders. Focuses on programming, physics, and computing concepts.",
             duration: "2 Years",
-            subjects: ["Computer Science", "Mathematics", "Physics/Statistics", "English", "Urdu"]
+            subjects: ["Computer science", "Physics", "Mathematics", "English", "Urdu", "Islamiat", "Tarjamat ul Quran", "Pakistan Studies"]
+        },
+        {
+            title: "ICS (Stats/Maths)",
+            icon: "fa-calculator",
+            description: "Focuses on statistics and mathematics alongside computer science for data-driven careers.",
+            duration: "2 Years",
+            subjects: ["Computer Science", "Statistics", "Mathematics", "English", "Urdu", "Islamiat", "Tarjamat ul Quran", "Pakistan Studies"]
         },
         {
             title: "Humanities & Arts",
             icon: "fa-book-reader",
             description: "Fosters critical thinking and a deep understanding of human society and culture.",
             duration: "2 Years",
-            subjects: ["Psychology", "Economics", "Civics", "English Literature", "Islamic Studies"]
+            subjects: ["Education", "Civics", "Computer", "English", "Urdu", "Islamiat", "Tarjamat ul Quran", "Pakistan Studies"]
         },
         {
             title: "ADP (2 Years)",

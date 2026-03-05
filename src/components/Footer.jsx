@@ -10,7 +10,7 @@ const Footer = () => {
                             <i className="fas fa-university mr-2 text-green-500"></i> Lahore College
                         </h3>
                         <p className="text-gray-300 text-sm leading-relaxed">
-                            Empowering minds, transforming futures. Recognized as one of the leading educational institutions in the region since 2015.
+                            Empowering minds, transforming futures. Recognized as one of the leading educational institutions in the region since 2020.
                         </p>
                     </div>
                     <div>
@@ -23,21 +23,27 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h4 className="font-bold text-green-500 mb-6 uppercase tracking-wider text-sm">Programs</h4>
+                        <h4 className="font-bold text-green-500 mb-6 uppercase tracking-wider text-sm">Contact Info</h4>
                         <ul className="space-y-3 text-gray-300 text-sm">
-                            <li>FSC-Medical</li>
-                            <li>FSC-Engineering</li>
-                            <li>ICS-Computer Science</li>
-                            <li>Humanities & Arts</li>
-                            <li>ADP-2 Years</li>
+                            <li className="flex items-start">
+                                <i className="fas fa-map-marker-alt mr-3 mt-1 text-green-500"></i>
+                                <span>7A, Guldasht Town, Zarar Shaheed Road, Lahore Cantt</span>
+                            </li>
+                            <li className="flex items-center">
+                                <i className="fas fa-phone-alt mr-3 text-green-500"></i>
+                                <span>04236635333, 0308 7895333</span>
+                            </li>
+                            <li className="flex items-center">
+                                <i className="fas fa-envelope mr-3 text-green-500"></i>
+                                <span>lahorecollegeofficial@gmail.com</span>
+                            </li>
                         </ul>
                     </div>
                     <div>
                         <h4 className="font-bold text-green-500 mb-6 uppercase tracking-wider text-sm">Follow Our Journey</h4>
                         <div className="flex space-x-5 text-2xl">
-                            <a href="#" className="text-gray-400 hover:text-green-500 transition"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#" className="text-gray-400 hover:text-green-500 transition"><i className="fab fa-twitter"></i></a>
-                            <a href="#" className="text-gray-400 hover:text-green-500 transition"><i className="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/lahorecollegeofficial" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition"><i className="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/lahorecollegeofficial/?hl=en" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition"><i className="fab fa-instagram"></i></a>
                             <a href="#" className="text-gray-400 hover:text-green-500 transition"><i className="fab fa-linkedin-in"></i></a>
                         </div>
                         <p className="text-gray-400 text-xs mt-8">© {new Date().getFullYear()} Lahore College. All rights reserved.</p>

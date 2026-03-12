@@ -121,7 +121,7 @@ const StudentForm = ({ setSubmitted }) => {
 const FacultyForm = ({ setSubmitted }) => {
     const [formData, setFormData] = useState({
         name: '', phone: '', qualification: 'Masters',
-        subject: '', city: 'Lahore', address: ''
+        subject: '', city: 'Lahore', address: '',email: ''
     });
 
     const handleChange = (e) => {
@@ -141,6 +141,10 @@ const FacultyForm = ({ setSubmitted }) => {
                 <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">Full Name *</label>
                     <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Your Name" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 outline-none transition" required />
+                </div>
+                <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">Email *</label>
+                    <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="your@gmail.com" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 outline-none transition" required />
                 </div>
                 <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">Phone Number *</label>

@@ -26,8 +26,8 @@ const Admissions = () => {
                 <button
                     onClick={() => setActiveTab('student')}
                     className={`flex-1 py-3 text-center rounded-md font-semibold transition ${activeTab === 'student'
-                            ? 'bg-green-700 text-white shadow'
-                            : 'text-gray-600 hover:text-green-700 hover:bg-gray-200'
+                        ? 'bg-green-700 text-white shadow'
+                        : 'text-gray-600 hover:text-green-700 hover:bg-gray-200'
                         }`}
                 >
                     Student Admission
@@ -35,8 +35,8 @@ const Admissions = () => {
                 <button
                     onClick={() => setActiveTab('faculty')}
                     className={`flex-1 py-3 text-center rounded-md font-semibold transition ${activeTab === 'faculty'
-                            ? 'bg-green-700 text-white shadow'
-                            : 'text-gray-600 hover:text-green-700 hover:bg-gray-200'
+                        ? 'bg-green-700 text-white shadow'
+                        : 'text-gray-600 hover:text-green-700 hover:bg-gray-200'
                         }`}
                 >
                     Faculty Application
@@ -120,8 +120,8 @@ const StudentForm = ({ setSubmitted }) => {
 
 const FacultyForm = ({ setSubmitted }) => {
     const [formData, setFormData] = useState({
-        name: '', phone: '', qualification: 'Masters',
-        subject: '', city: 'Lahore', address: '',email: ''
+        name: '', phone: '', qualification: 'Masters', position: 'Teacher',
+        subject: '', city: 'Lahore', address: '', email: ''
     });
 
     const handleChange = (e) => {
@@ -162,6 +162,17 @@ const FacultyForm = ({ setSubmitted }) => {
                 <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">Subject Specialization *</label>
                     <input type="text" name="subject" value={formData.subject} onChange={handleChange} placeholder="e.g. Physics" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 outline-none transition" required />
+                </div>
+                <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">Position Applied For *</label>
+                    <select name="position" value={formData.position} onChange={handleChange} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 outline-none transition">
+                        <option value="Teacher">Teacher</option>
+                        <option value="Principal">Principal</option>
+                        <option value="IT Support">IT Support</option>
+                        <option value="Librarian">Librarian</option>
+                        <option value="Admin Staff">Admin Staff</option>
+                        <option value="Other">Other</option>
+                    </select>
                 </div>
             </div>
 
